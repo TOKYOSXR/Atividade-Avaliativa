@@ -8,14 +8,68 @@
 :root{
     --secundary-color: #5828E3;
     --background-secundary: #F6F4FF;
-    --color-background-texts: rgb(36,91,243,8)
+    --color-texts: #7E8492;
 }
 
 .hero{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0.75rem 1.25rem 2.5rem 1.25rem ;
 }
 
-.cabecalho{
+.apresentacao h4{
+    text-align: center;
+    background-color:var(--background-secundary) ;
+    margin: 0 4rem 1rem 4rem;
+    padding: 0.5rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: var(--secundary-color);
+}
+
+.apresentacao h1{
+    text-align: center;
+    font-size: 2.25rem;
+    margin: auto;
+    width: 83%;
+}
+
+.destaque{
+    color: var(--secundary-color);
+}
+
+.texto-apresentacao{
+    color: var(--color-texts);
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+    width: 83%;
+    line-height: 1.7;
+    margin-top: 1rem;
+}
+
+.email{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.68rem 1.25rem 2.5rem 1.25rem;
+    padding: 1rem;
+    border-radius: 50px;
+    border-color: #EDEDED;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 1rem;
+    color: var(--color-texts);
+    font-weight: 550;
+    align-items: center;
+}
+
+.email button{
+    border-radius: 50px;
+    width: 133px;
+    height: 41px;
+    background-color: var(--secundary-color);
+    color: white;
+    border-style: none;
 }
