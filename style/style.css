@@ -14,8 +14,15 @@
 .hero{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0.75rem 1.25rem 2.5rem 1.25rem ;
 }
 
-.cabecalho{
+.apresentacao h4{
+    text-align: center;
+    background-color:var(--color-background-texts) ;
+    margin-left: 3.47rem;
+    margin-right: 3.47rem;
+    padding: ;
+    border-radius: 50px;
 }
