@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --secundary-color: #5828E3;
+    --background-secundary: #F6F4FF;
+    --color-background-texts: rgb(36,91,243,8)
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 1.25rem 2.5rem 1.25rem ;
+}
+
+.cabecalho{
+}
